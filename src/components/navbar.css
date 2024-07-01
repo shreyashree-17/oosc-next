@@ -1,0 +1,135 @@
+/* Base styles for the navbar */
+.navbar-default {
+    border-color: transparent;
+    background-color: #333; /* Darker background color */
+    padding: 15px; /* Increased padding for better spacing */
+    position: fixed; /* Make the navbar sticky */
+    width: 100%;
+    top: 0;
+    z-index: 1000; /* Ensure it stays on top */
+    transition: background-color 0.3s ease; /* Smooth transition */
+  }
+  
+  .navbar-default .navbar-brand {
+    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+    color: #fff; /* White brand color */
+    font-size: 1.5rem; /* Larger font size */
+  }
+  
+  .navbar-default .navbar-brand:hover,
+  .navbar-default .navbar-brand:focus {
+    color: #f8f8f8; /* Slightly lighter on hover */
+  }
+  
+  .navbar-default .navbar-toggle {
+    border-color: #ddd;
+    background-color: #444; /* Slightly lighter toggle background */
+  }
+  
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff; /* White icon bars */
+  }
+  
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background-color: #555; /* Slightly darker on hover */
+  }
+  
+  .navbar-default .nav li a {
+    text-transform: uppercase;
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #ddd; /* Light gray text color */
+    transition: color 0.3s ease; /* Smooth transition */
+  }
+  
+  .navbar-default .nav li a:hover,
+  .navbar-default .nav li a:focus {
+    outline: 0;
+    color: #fff; /* White on hover */
+  }
+  
+  .navbar-default .navbar-nav > .active > a {
+    border-radius: 0;
+    color: #fff; /* White active text */
+    background-color: #555; /* Darker active background */
+  }
+  
+  .navbar-default .navbar-nav > .active > a:hover,
+  .navbar-default .navbar-nav > .active > a:focus {
+    color: #fff; /* White on hover */
+    background-color: #666; /* Slightly lighter on hover */
+  }
+  
+  /* Logo image responsive settings */
+  .navbar-header .page-scroll img {
+    height: auto;
+    max-height: 60px;
+    width: auto;
+    max-width: 7vw;
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-default {
+      padding: 20px 0; /* Adjusted padding */
+    }
+  
+    .navbar-default .navbar-brand {
+      font-size: 2rem; /* Larger font size */
+    }
+  
+    .navbar-default .navbar-nav > .active > a {
+      border-radius: 3px; /* Rounded active link */
+    }
+  
+    .navbar-default.navbar-shrink {
+      padding: 10px 0;
+      background-color: #222; /* Darker background when shrunk */
+    }
+  
+    .navbar-default.navbar-shrink .navbar-brand {
+      font-size: 1.5rem; /* Smaller font size when shrunk */
+    }
+  
+    .navbar-default .nav li a {
+      color: white;
+    }
+  }
+  
+  /* Custom styles for responsive navbar */
+  .navbar-brand-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Ensure text adapts well to different screen sizes */
+  @media (max-width: 768px) {
+    .navbar-nav > li > div {
+      text-align: center;
+      padding: 10px 0;
+      font-size: 1rem; /* Adjusted font size */
+    }
+  
+    .navbar-toggle {
+      margin-right: 0;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .navbar-nav > li > div {
+      padding: 15px 20px;
+      font-size: 1.125rem; /* Adjusted font size */
+    }
+  }
+  
+  .navbar-nav > li > div {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  .navbar-nav > li > div.active {
+    font-weight: bold;
+  }
+  
