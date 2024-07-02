@@ -24,7 +24,7 @@ const Calendar: React.FC = () => {
       date: "26 August, 2024",
       title: "Hackathon",
       description: "Calling all coding warriors! Gear up for the 26th of August - a 12-hour hackathon designed to challenge and reward your skills. Collaborate with your team, tackle surprise challenges, and compete for amazing prizes. Enjoy complimentary food, fun activities, and the thrill of a competitive environment as you push your boundaries and create something awesome!",
-      image: "/img/calendar/3.jpg",
+      image: "/img/calendar/hackathon.jpg",
       alt: "Hackathon Event"
     }
   ];

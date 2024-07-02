@@ -14,13 +14,20 @@ interface SpeakerCardProps {
 
 const SpeakerCard: React.FC<SpeakerCardProps> = ({ imgSrc, name, title, twitterUrl, facebookUrl, linkedinUrl, googleplusUrl }) => {
   return (
-    <div className="col-md-4">
-      <div className="speaker">
+    <div className="col-md-4 offset-md-4">
+      <div className="speaker text-center">
         <figure>
           <img alt={name} className="img-responsive center-block" src={imgSrc} />
         </figure>
         <h4>{name}</h4>
-        <p>{title}</p>
+        <p>
+          {title.split('\n').map((line, index) => (
+            <React.Fragment key={index}>
+              {line}
+              <br />
+            </React.Fragment>
+          ))}
+        </p>
         <ul className="social-block">
           <li><a href={twitterUrl} className="social-link"><i className="ion-social-twitter"></i></a></li>
           <li><a href={facebookUrl} className="social-link"><i className="ion-social-facebook"></i></a></li>
