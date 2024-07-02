@@ -7,17 +7,17 @@ import '../../src/css/font-awesome/css/font-awesome.min.css';
 const Calendar: React.FC = () => {
   const events = [
     {
-      date: "24 August, 2024",
+      date: "10 August, 2024",
       title: "Registration Date",
       description: "The Open Source Opportunity awaits! Don't miss your chance to register for this premier event on August 24th. Mingle with fellow enthusiasts, developers, and contributors from around the world. Get ready to be inspired by thought leaders and delve into practical workshops on Snapcraft, DevOps, AI/ML, and more!",
-      image: "/img/calendar/1.jpg",
+      image: "/img/calendar/1.png",
       alt: "Registration Event"
     },
     {
-      date: "25 August, 2024",
+      date: "24 August, 2024",
       title: "Events and Workshop",
       description: "The 25th of August is packed with learning and engagement! Attend insightful talks, panels, and interactive sessions on cutting-edge topics like system components, cloud computing, and even OS distribution integration. Network with the open-source community and gain valuable insights to enhance your professional profile.",
-      image: "/img/calendar/2.jpg",
+      image: "/img/calendar/2.png",
       alt: "Workshop Event"
     },
     {

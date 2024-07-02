@@ -26,14 +26,15 @@ const Navbar: React.FC = () => {
             <span className="icon-bar"></span>
             <span className="icon-bar"></span>
           </button>
-          <Link href="#page-top" passHref>
+          <Link href="#page-top navbar-brand-img" passHref>
             <div className="page-scroll">
               <Image
                 src="/img/oosc-logo.png"
                 alt="OOSC Logo"
-                width={90}
-                height={90}
+                width={100}
+                height={100}
                 className="navbar-brand-img"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
               />
             </div>
           </Link>
