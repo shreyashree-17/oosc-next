@@ -12,7 +12,7 @@ const Speakers: React.FC = () => {
           <div className="row">
             <div className="col-lg-12 text-center">
               <h2 className="section-heading">Speakers</h2>
-              <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+              <h3 className="section-subheading text-muted">Meet our amazing speakers</h3>
             </div>
           </div>
           <div className="row justify-content-center">

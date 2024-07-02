@@ -704,6 +704,11 @@ section#contact .form-group textarea {
     padding: 20px;
 }
 
+/* section#contact .form-group select{
+    padding: 29px;
+    color: grey;
+} */
+
 section#contact .form-group input.form-control {
     height: auto;
 }
