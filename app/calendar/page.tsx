@@ -10,21 +10,21 @@ const Calendar: React.FC = () => {
       date: "24 August, 2024",
       title: "Registration Date",
       description: "The Open Source Opportunity awaits! Don't miss your chance to register for this premier event on August 24th. Mingle with fellow enthusiasts, developers, and contributors from around the world. Get ready to be inspired by thought leaders and delve into practical workshops on Snapcraft, DevOps, AI/ML, and more!",
-      image: "/img/calendar/1.jpg",
+      image: "/img/calendar/registration.png",
       alt: "Registration Event"
     },
     {
       date: "25 August, 2024",
       title: "Events and Workshop",
       description: "The 25th of August is packed with learning and engagement! Attend insightful talks, panels, and interactive sessions on cutting-edge topics like system components, cloud computing, and even OS distribution integration. Network with the open-source community and gain valuable insights to enhance your professional profile.",
-      image: "/img/calendar/2.jpg",
+      image: "/img/calendar/event_workshop.jpg",
       alt: "Workshop Event"
     },
     {
       date: "26 August, 2024",
       title: "Hackathon",
       description: "Calling all coding warriors! Gear up for the 26th of August - a 12-hour hackathon designed to challenge and reward your skills. Collaborate with your team, tackle surprise challenges, and compete for amazing prizes. Enjoy complimentary food, fun activities, and the thrill of a competitive environment as you push your boundaries and create something awesome!",
-      image: "/img/calendar/3.jpg",
+      image: "/img/calendar/hackathon.jpg",
       alt: "Hackathon Event"
     }
   ];
