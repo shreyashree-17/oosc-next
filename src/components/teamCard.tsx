@@ -15,18 +15,18 @@ interface TeamCardProps {
 
 const TeamCard: React.FC<TeamCardProps> = ({ imgSrc, name, title, twitterUrl, facebookUrl, linkedinUrl, googleplusUrl }) => {
   return (
-    <div className="col-md-4">
-      <div className="speaker">
-        <figure className='img-circle'>
-          <img alt={name} className="img-responsive center-block" src={imgSrc} />
+    <div className="col-lg-4 col-md-6 d-flex justify-content-center mb-4">
+      <div className="team-member text-center">
+        <figure>
+          <img alt={name} className="img-fluid rounded-circle" src={imgSrc} />
         </figure>
         <h4>{name}</h4>
         <p>{title}</p>
         <ul className="social-block">
-          <li><a href={twitterUrl} className="social-link"><i className="ion-social-twitter"></i></a></li>
-          <li><a href={facebookUrl} className="social-link"><i className="ion-social-facebook"></i></a></li>
-          <li><a href={linkedinUrl} className="social-link"><i className="ion-social-linkedin-outline"></i></a></li>
-          <li><a href={googleplusUrl} className="social-link"><i className="ion-social-googleplus"></i></a></li>
+          {twitterUrl && <li><a href={twitterUrl} className="social-link"><i className="ion-social-twitter"></i></a></li>}
+          {facebookUrl && <li><a href={facebookUrl} className="social-link"><i className="ion-social-facebook"></i></a></li>}
+          {linkedinUrl && <li><a href={linkedinUrl} className="social-link"><i className="ion-social-linkedin-outline"></i></a></li>}
+          {googleplusUrl && <li><a href={googleplusUrl} className="social-link"><i className="ion-social-googleplus"></i></a></li>}
         </ul>
       </div>
     </div>
