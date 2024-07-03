@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import Wave from '@/src/waves/components/wave';
+// import Wave from '@/src/waves/components/wave';
 import Partners from '@/src/components/partners';
 // import Partners from '@/src/partners/components/Partners';
 
