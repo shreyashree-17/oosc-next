@@ -24,7 +24,7 @@ const Contact: React.FC = () => {
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { id, value } = e.target;
     setFormData({ ...formData, [id]: value });
-    setFormErrors({ ...formErrors, [id]: '' }); // Clear validation error on input change
+    setFormErrors({ ...formErrors, [id]: '' });
   };
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
