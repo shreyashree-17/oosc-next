@@ -19,15 +19,15 @@
       linkedinUrl: '',
       googleplusUrl: '',
     },
-    // {
-    //   imgSrc: '../img/speakers/speaker-1.jpg',
-    //   name: 'Mike Johnson',
-    //   title: 'Head of Design at Creatives',
-    //   twitterUrl: '',
-    //   facebookUrl: '',
-    //   linkedinUrl: '',
-    //   googleplusUrl: '',
-    // },
+    {
+      imgSrc: '../img/speakers/rmichael.jpeg',
+      name: 'Micheal R. Sweet',
+      title: 'Creator of CUPS',
+      twitterUrl: '',
+      facebookUrl: '',
+      linkedinUrl: '',
+      googleplusUrl: '',
+    },
     // Add more speakers as needed
   ];
   

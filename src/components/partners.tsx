@@ -3,9 +3,9 @@ import Image from 'next/image';
 
 const partners = [
   { src: "/img/logos/LinuxFoundation.png", alt: "Envato" },
-  { src: "/img/logos/pclub.png", alt: "Designmodo" },
-  { src: "/img/logos/snt.png", alt: "Themeforest" },
-  { src: "/img/logos/techkriti.png", alt: "Creative Market" },
+  { src: "/img/logos/canonical.png", alt: "Designmodo" },
+  { src: "/img/logos/zephyr.jpeg", alt: "Themeforest" },
+  { src: "/img/logos/open_printing.png", alt: "Creative Market" },
 ];
 
 const Partners: React.FC = () => {

@@ -2,7 +2,7 @@
 
 const teamData = [
   {
-    section: 'Overall Coordination',
+    section: 'Overall Coordinator',
     members: [
       {
         imgSrc: '../img/team/Pratham_Sahu.jpeg',
@@ -37,7 +37,7 @@ const teamData = [
         googleplusUrl: '',
       },
       {
-        imgSrc: '../img/team/2.jpg',
+        imgSrc: '../img/team/Sanskar.jpeg',
         name: 'Sanskar Yaduka',
         title: '',
         twitterUrl: '',
@@ -94,7 +94,7 @@ const teamData = [
     ]
   },
   {
-    section: 'Marketing and Publicity',
+    section: 'Media and Publicity',
     members: [
       {
         imgSrc: '../img/team/3.jpg',
@@ -135,7 +135,7 @@ const teamData = [
     ]
   },
   {
-    section: 'Design',
+    section: 'Design and Marketing',
     members: [
       {
         imgSrc: '../img/team/1.jpg',

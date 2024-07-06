@@ -14,6 +14,8 @@ const App: React.FC = () => {
             <div className="intro-heading">Opportunity<br />Open-Source Conference</div>
             <div className="intro-lead-in">24th - 26th August</div>
             <a href="#about" className="page-scroll btn btn-xl">Tell Me More</a>
+            <br /><br />
+            <a href="https://events.canonical.com/event/89/overview" className="page-scroll btn btn-xl">Visit Our Other Site</a>
           </div>
         </div>
       </header>
@@ -30,6 +32,7 @@ const App: React.FC = () => {
               <br />
               <p className="text-muted" style={{ fontStyle: "normal" }}>
                 The Open Source Conference (OOSC), is a premier event dedicated to foster innovation, collaboration, and learning in the open-source community. This gathering brings together developers, enthusiasts, industry experts, and academics to explore the latest trends, tools, and projects in open source. Be a part of the vibrant open-source community this year, at IIT Kanpur. Whether you are a developer, student, researcher, or enthusiast, the OOSC offers something for everyone. Join us to learn, innovate, and contribute to the open-source movement. <br /> <br />
+                <a href="https://events.canonical.com/event/89/overview" className="page-scroll btn btn-xl">Visit Our Other Site</a>
               </p>
             </div>
           </div>
