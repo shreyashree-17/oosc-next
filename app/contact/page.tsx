@@ -21,6 +21,8 @@ const Contact: React.FC = () => {
     message: '',
   });
 
+  const [submissionStatus, setSubmissionStatus] = useState<string | null>(null);
+
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { id, value } = e.target;
     setFormData({ ...formData, [id]: value });
@@ -32,8 +34,10 @@ const Contact: React.FC = () => {
 
     try {
       await submitFormToGoogleScript(formData);
+      setSubmissionStatus('success');
       console.log('Form submitted successfully:', formData);
     } catch (error) {
+      setSubmissionStatus('error');
       console.error('Error submitting form:', error);
     }
   };
@@ -45,7 +49,9 @@ const Contact: React.FC = () => {
           <div className="row">
             <div className="col-lg-12 text-center">
               <h2 className="section-heading">Contact Us</h2>
-              <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+              <h3 className="section-subheading text-muted">
+                {submissionStatus === 'success' ? 'Thank you for contacting us!' : 'We\'d love to hear from you. Please fill out the form below to get in touch with us.'}
+              </h3>
             </div>
           </div>
           <div className="row">
@@ -105,7 +111,10 @@ const Contact: React.FC = () => {
                   </div>
                   <div className="clearfix"></div>
                   <div className="col-lg-12 text-center">
-                    <div id="success"></div>
+                    <div id="success">
+                      {submissionStatus === 'success' && <p className="text-success">Your message has been sent successfully!</p>}
+                      {submissionStatus === 'error' && <p className="text-danger">There was an error submitting your message. Please try again later.</p>}
+                    </div>
                     <button type="submit" className="btn btn-xl">Send Message</button>
                   </div>
                 </div>
