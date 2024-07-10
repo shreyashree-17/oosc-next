@@ -37,7 +37,7 @@ const teamData = [
         googleplusUrl: '',
       },
       {
-        imgSrc: '../img/team/2.jpg',
+        imgSrc: '../img/team/rahbar.jpeg',
         name: 'Md Rahbar',
         title: '',
         twitterUrl: '',
@@ -161,7 +161,7 @@ const teamData = [
     section: 'Design and Marketing',
     members: [
       {
-        imgSrc: '../img/team/1.jpg',
+        imgSrc: '../img/team/samhita.jpg',
         name: 'K.C. Sree Samhitha',
         title: '',
         twitterUrl: '',
@@ -170,7 +170,7 @@ const teamData = [
         googleplusUrl: '',
       },
       {
-        imgSrc: '../img/team/2.jpg',
+        imgSrc: '../img/team/Deexith_Design.jpg',
         name: 'Sai Deexith',
         title: '',
         twitterUrl: '',
