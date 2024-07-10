@@ -52,7 +52,6 @@ const Speakers: React.FC = () => {
     };
 
     window.addEventListener('scroll', handleScroll);
-    // Initial call to set the color correctly on page load
     handleScroll();
 
     return () => {
