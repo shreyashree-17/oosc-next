@@ -16,7 +16,7 @@ export const eventsData = [
     },
     {
       iconClass: "fa fa-trophy",
-      title: "Hackthon",
+      title: "Hackathon",
       description: "Join our hackathon and showcase your coding prowess. Compete with fellow developers to solve real-world challenges and win exciting prizes.",
       href: "/hackathon"
     },

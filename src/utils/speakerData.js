@@ -13,7 +13,7 @@
     {
       imgSrc: '../img/speakers/rAveek.jpeg',
       name: 'Aveek Basu',
-      title: 'Admin in GSOC for Linux Foundation\nProduct Manager OpenPrinting',
+      title: 'Admin in GSOC for Linux Foundation\nProgram Manager OpenPrinting',
       twitterUrl: '',
       facebookUrl: '',
       linkedinUrl: '',
@@ -28,9 +28,35 @@
       linkedinUrl: '',
       googleplusUrl: '',
     },
+    {
+      imgSrc: '../img/speakers/rrudra.jpeg',
+      name: 'Rudra Saraswat',
+      title: 'Ubuntu Member\nUbuntu Unity project lead',
+      twitterUrl: '',
+      facebookUrl: '',
+      linkedinUrl: '',
+      googleplusUrl: '',
+    },
+    {
+      imgSrc: '../img/speakers/rjiongchi.jpeg',
+      name: 'Jiongchi Yu',
+      title: 'Ubuntu Member\nUbuntu Unity project lead',
+      twitterUrl: '',
+      facebookUrl: '',
+      linkedinUrl: '',
+      googleplusUrl: '',
+    },
+    {
+      imgSrc: '../img/speakers/rgeorge.jpg',
+      name: 'George-Andrei Iosif',
+      title: 'Ubuntu Member\nUbuntu Unity project lead',
+      twitterUrl: '',
+      facebookUrl: '',
+      linkedinUrl: '',
+      googleplusUrl: '',
+    },
     // Add more speakers as needed
   ];
   
   export default speakerData;
 //   export type { Speaker };
-  

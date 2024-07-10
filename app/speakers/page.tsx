@@ -1,8 +1,8 @@
 // pages/speakers.tsx
 
-import SpeakerCard from '@/src/components/speakerCard';
 import React from 'react';
-import speakerData from "../../src/utils/speakerData";
+import SpeakerCard from '@/src/components/speakerCard';
+import speakerData from '../../src/utils/speakerData';
 
 const Speakers: React.FC = () => {
   return (
@@ -15,7 +15,7 @@ const Speakers: React.FC = () => {
               <h3 className="section-subheading text-muted">Meet our amazing speakers</h3>
             </div>
           </div>
-          <div className="row justify-content-center">
+          <div className="row">
             {speakerData.map((speaker, index) => (
               <SpeakerCard key={index} {...speaker} />
             ))}
@@ -27,3 +27,4 @@ const Speakers: React.FC = () => {
 };
 
 export default Speakers;
+

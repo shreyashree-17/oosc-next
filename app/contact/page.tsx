@@ -87,11 +87,10 @@ const Contact: React.FC = () => {
                       <input
                         type="tel"
                         className="form-control"
-                        placeholder="Your Phone *"
+                        placeholder="Your Phone"
                         id="phone"
                         value={formData.phone}
                         onChange={handleInputChange}
-                        required
                       />
                       <p className="help-block text-danger">{formErrors.phone}</p>
                     </div>

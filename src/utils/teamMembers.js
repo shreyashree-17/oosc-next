@@ -2,6 +2,29 @@
 
 const teamData = [
   {
+    section: 'Organiser',
+    members: [
+      {
+        imgSrc: '../img/speakers/rTill.jpg',
+        name: 'Till Kamppeter',
+        title: '',
+        twitterUrl: '',
+        facebookUrl: '',
+        linkedinUrl: '',
+        googleplusUrl: '',
+      },
+      {
+        imgSrc: '../img/speakers/rAveek.jpeg',
+        name: 'Aveek Basu',
+        title: '',
+        twitterUrl: '',
+        facebookUrl: '',
+        linkedinUrl: '',
+        googleplusUrl: '',
+      },
+    ]
+  },
+  {
     section: 'Overall Coordinator',
     members: [
       {

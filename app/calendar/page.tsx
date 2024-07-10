@@ -14,8 +14,8 @@ const Calendar: React.FC = () => {
       alt: "Registration Event"
     },
     {
-      date: "24 August, 2024",
-      title: "Events and Workshop",
+      date: "24 and 25 August, 2024",
+      title: "Talks and Workshops",
       description: "The 25th of August is packed with learning and engagement! Attend insightful talks, panels, and interactive sessions on cutting-edge topics like system components, cloud computing, and even OS distribution integration. Network with the open-source community and gain valuable insights to enhance your professional profile.",
       image: "/img/calendar/2.png",
       alt: "Workshop Event"
