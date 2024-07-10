@@ -40,7 +40,7 @@
     {
       imgSrc: '../img/speakers/rjiongchi.jpeg',
       name: 'Jiongchi Yu',
-      title: 'Ubuntu Member\nUbuntu Unity project lead',
+      title: '',
       twitterUrl: '',
       facebookUrl: '',
       linkedinUrl: '',
@@ -49,7 +49,7 @@
     {
       imgSrc: '../img/speakers/rgeorge.jpg',
       name: 'George-Andrei Iosif',
-      title: 'Ubuntu Member\nUbuntu Unity project lead',
+      title: '',
       twitterUrl: '',
       facebookUrl: '',
       linkedinUrl: '',

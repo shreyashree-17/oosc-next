@@ -2,7 +2,7 @@
 
 const teamData = [
   {
-    section: 'Organiser',
+    section: 'Organisers',
     members: [
       {
         imgSrc: '../img/speakers/rTill.jpg',

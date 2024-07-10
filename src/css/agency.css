@@ -1137,4 +1137,6 @@ body {
     color: #007bff;
   }
   
-
+  .text-scroll-color {
+    transition: color 0.3s ease;
+  }
