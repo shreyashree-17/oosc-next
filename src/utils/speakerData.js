@@ -4,7 +4,7 @@
     {
       imgSrc: '../img/speakers/rTill.jpg',
       name: 'Till Kamppeter',
-      title: 'Leader OpenPrinting',
+      title: 'Leader OpenPrinting\nLinux Foundation Fellow',
       twitterUrl: '',
       facebookUrl: '',
       linkedinUrl: '',
@@ -13,7 +13,7 @@
     {
       imgSrc: '../img/speakers/rAveek.jpeg',
       name: 'Aveek Basu',
-      title: 'Admin in GSOC for Linux Foundation\nProgram Manager OpenPrinting',
+      title: 'Org Admin - The Linux Foundation GSoC projects\nCommunity & Program Manager OpenPrinting, Zephyr Ambassador',
       twitterUrl: '',
       facebookUrl: '',
       linkedinUrl: '',
