@@ -38,9 +38,9 @@
       googleplusUrl: '',
     },
     {
-      imgSrc: '../img/speakers/rjiongchi.jpeg',
+      imgSrc: '../img/speakers/jiongchi.jpeg',
       name: 'Jiongchi Yu',
-      title: '',
+      title: 'GSoC contributor for OpenPrinting\nOSS-Fuzz testing for CUPS and other OpenPrinting components',
       twitterUrl: '',
       facebookUrl: '',
       linkedinUrl: '',
@@ -49,7 +49,7 @@
     {
       imgSrc: '../img/speakers/rgeorge.jpg',
       name: 'George-Andrei Iosif',
-      title: '',
+      title: 'Working with Software Security\nOSS-Fuzz and fuzz testing',
       twitterUrl: '',
       facebookUrl: '',
       linkedinUrl: '',

@@ -29,7 +29,6 @@
 // export default Speakers;
 
 'use client';
-
 import React, { useEffect } from 'react';
 import SpeakerCard from '@/src/components/speakerCard';
 import speakerData from '../../src/utils/speakerData';
@@ -37,22 +36,20 @@ import speakerData from '../../src/utils/speakerData';
 const Speakers: React.FC = () => {
   useEffect(() => {
     const scrollColorElements = document.querySelectorAll('.text-scroll-color');
-    
     const handleScroll = () => {
       const scrollPosition = window.scrollY;
       const maxScroll = document.documentElement.scrollHeight - window.innerHeight;
       const scrollPercentage = scrollPosition / maxScroll;
 
+      const color = scrollPercentage >= 0.7 ? 'white' : 'black';
+
       scrollColorElements.forEach((element) => {
-        const r = Math.floor(255 * scrollPercentage);
-        const g = Math.floor(255 * scrollPercentage);
-        const b = Math.floor(255 * scrollPercentage);
-        (element as HTMLElement).style.color = `rgb(${r}, ${g}, ${b})`;
+        (element as HTMLElement).style.color = color;
       });
     };
 
     window.addEventListener('scroll', handleScroll);
-    handleScroll();
+    handleScroll(); // Initial call to set the color
 
     return () => {
       window.removeEventListener('scroll', handleScroll);
