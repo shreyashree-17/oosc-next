@@ -16,6 +16,8 @@ const App: React.FC = () => {
             {/* <a href="#about" className="page-scroll btn btn-xl">Tell Me More</a> */}
             <br /><br />
             <a href="https://events.canonical.com/event/89/overview" className="page-scroll btn btn-xl">Further Details + Call for Proposals</a>
+            <br /><br />
+            <a href='https://docs.google.com/forms/d/e/1FAIpQLSdeiLqjYGpFbZAO8JB7aNJIqpJ7JanHoPzqg955BQMVjhe4EA/viewform?usp=pp_url' className="page-scroll btn btn-xl">Register Now</a>
           </div>
         </div>
       </header>
