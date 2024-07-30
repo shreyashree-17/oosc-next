@@ -18,6 +18,8 @@ const App: React.FC = () => {
             <a href="https://events.canonical.com/event/89/overview" className="page-scroll btn btn-xl">Further Details + Call for Proposals</a>
             <br /><br />
             <a href='https://docs.google.com/forms/d/e/1FAIpQLSdeiLqjYGpFbZAO8JB7aNJIqpJ7JanHoPzqg955BQMVjhe4EA/viewform?usp=pp_url' className="page-scroll btn btn-xl">Register Now</a>
+            <br /><br />
+            <a href='https://www.onlinesbi.sbi/sbicollect/icollecthome.htm?corpID=314456' className="page-scroll btn btn-xl">Make Payment</a>
           </div>
         </div>
       </header>
