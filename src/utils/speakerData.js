@@ -263,7 +263,7 @@
       googleplusUrl: '',
     },
     {
-      imgSrc: '../img/speakers/Suraj Mahto.jpg',
+      imgSrc: '../img/speakers/Suraj Mahto.png',
       name: 'Suraj Mahto',
       title: 'SRE at Tether\nGSoC and SoK Contributor',
       twitterUrl: '',
