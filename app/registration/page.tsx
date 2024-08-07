@@ -35,13 +35,13 @@ const Registration: React.FC = () => {
               <li>
                 On the SBI Collect page, select "Opportunity Open Source Conference" from the payment category dropdown.
                 <div className="mt-2">
-                  <img src="../../public/img/payment1.png" alt="Select Payment Category" className="img-fluid" />
+                  <img src="../../img/payment1.png" alt="Select Payment Category" className="img-fluid" />
                 </div>
               </li>
               <li>
                 Enter your details and follow the instructions to complete the payment.
                 <div className="mt-2">
-                  <img src="../../public/img/payment2.png" alt="Enter Payment Details" className="img-fluid" />
+                  <img src="../../img/payment2.png" alt="Enter Payment Details" className="img-fluid" />
                 </div>
               </li>
               <li>
