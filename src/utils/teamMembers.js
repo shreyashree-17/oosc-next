@@ -45,6 +45,15 @@ const teamData = [
         linkedinUrl: '',
         googleplusUrl: '',
       },
+      {
+        imgSrc: '../img/team/oc.jpeg',
+        name: '',
+        title: '',
+        twitterUrl: '',
+        facebookUrl: '',
+        linkedinUrl: '',
+        googleplusUrl: '',
+      },
     ]
   },
   {
@@ -62,10 +71,10 @@ const teamData = [
       {
         imgSrc: '../img/team/Sanskar.jpeg',
         name: 'Sanskar Yaduka',
-        title: '',
+        title: '+91 8434842395',
         twitterUrl: '',
         facebookUrl: '',
-        linkedinUrl: '',
+        linkedinUrl: 'https://www.linkedin.com/in/sanskar-yaduka-6aa154254/',
         googleplusUrl: '',
       },
     ]
@@ -114,20 +123,20 @@ const teamData = [
         linkedinUrl: '',
         googleplusUrl: '',
       },
-    ]
-  },
-  {
-    section: 'Media and Publicity',
-    members: [
       {
-        imgSrc: '../img/team/3.jpg',
-        name: 'Kanika Chaturvedi',
+        imgSrc: '../img/team/hospi.jpeg',
+        name: 'Devagya Singh Vats',
         title: '',
         twitterUrl: '',
         facebookUrl: '',
         linkedinUrl: '',
         googleplusUrl: '',
       },
+    ]
+  },
+  {
+    section: 'Marketing',
+    members: [
       {
         imgSrc: '../img/team/Sujal jain_Marketing .JPG',
         name: 'Sujal Jain',
@@ -137,6 +146,11 @@ const teamData = [
         linkedinUrl: '',
         googleplusUrl: '',
       },
+    ]
+  },
+  {
+    section: 'Media and Publicity',
+    members: [
       {
         imgSrc: '../img/team/Nitika Singh_MnP.jpg',
         name: 'Nitika Singh',
@@ -146,19 +160,10 @@ const teamData = [
         linkedinUrl: '',
         googleplusUrl: '',
       },
-      {
-        imgSrc: '../img/team/Keshav Agrawal_Marketing.jpg',
-        name: 'Keshav Agarwal',
-        title: '',
-        twitterUrl: '',
-        facebookUrl: '',
-        linkedinUrl: '',
-        googleplusUrl: '',
-      },
     ]
   },
   {
-    section: 'Design and Marketing',
+    section: 'Design',
     members: [
       {
         imgSrc: '../img/team/samhita.jpg',
