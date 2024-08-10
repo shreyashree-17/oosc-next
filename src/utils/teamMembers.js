@@ -5,7 +5,7 @@ const teamData = [
     section: 'Organisers',
     members: [
       {
-        imgSrc: '../img/speakers/rTill.jpg',
+        imgSrc: '../img/speakers/rTill.png',
         name: 'Till Kamppeter',
         title: '',
         twitterUrl: '',
@@ -30,7 +30,7 @@ const teamData = [
       {
         imgSrc: '../img/team/Pratham_Sahu.jpeg',
         name: 'Pratham Sahu',
-        title: '',
+        title: '+91 7619678791',
         twitterUrl: '',
         facebookUrl: '',
         linkedinUrl: '',
@@ -39,7 +39,7 @@ const teamData = [
       {
         imgSrc: '../img/team/rahbar.jpeg',
         name: 'Md Rahbar',
-        title: '',
+        title: '+91 8445979949',
         twitterUrl: '',
         facebookUrl: '',
         linkedinUrl: '',
@@ -125,7 +125,7 @@ const teamData = [
       },
       {
         imgSrc: '../img/team/hospi.jpeg',
-        name: 'Devagya Singh Vats',
+        name: 'Vyom Pratap Singh',
         title: '',
         twitterUrl: '',
         facebookUrl: '',
