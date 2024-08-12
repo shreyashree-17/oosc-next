@@ -57,6 +57,13 @@ const Navbar: React.FC = () => {
               </Link>
             </li>
             <li>
+              <Link href="/competitions" passHref>
+                <div className={`page-scroll ${params.id === '/competitions' ? 'active' : ''}`}>
+                  Hackathon
+                </div>
+              </Link>
+            </li>
+            <li>
               <Link href="/speakers" passHref>
                 <div className={`page-scroll ${params.id === '/speakers' ? 'active' : ''}`}>
                   Speakers
