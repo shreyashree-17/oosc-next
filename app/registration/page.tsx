@@ -51,6 +51,15 @@ const Registration: React.FC = () => {
             <a href="https://www.onlinesbi.sbi/sbicollect/icollecthome.htm?corpID=314456" target="_blank" rel="noopener noreferrer" className="btn btn-primary mt-3">Make Payment</a>
           </div>
         </div>
+        <div className="row mt-5">
+          <div className="col-lg-12">
+            <h3 className="section-heading">Contact Information</h3>
+            <p style={{color: "#c4c4c4", padding: "0"}}>In case of any problems with the registration process, please contact-</p>
+            <p style={{color: "#c4c4c4", padding: "0"}}><strong>Devagya Vats - </strong>7042510704</p>
+            <p style={{color: "#c4c4c4", padding: "0"}}><strong>Aditya Ranjan - </strong>76678 15014</p>
+            
+          </div>
+        </div>
       </div>
     </section>
   );
