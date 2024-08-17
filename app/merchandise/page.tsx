@@ -17,7 +17,7 @@ const Merchandise: React.FC = () => {
       <div className="row">
         <div className="col-md-6">
           <Image
-            src="/public/img/tshirt_design.png"
+            src="/img/tshirt_design.png"
             alt="OOSC T-shirt"
             width={500}
             height={500}
