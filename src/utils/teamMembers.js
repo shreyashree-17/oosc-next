@@ -47,7 +47,7 @@ const teamData = [
       },
       {
         imgSrc: '../img/team/oc.jpeg',
-        name: '',
+        name: 'Prakhar Mishra',
         title: '',
         twitterUrl: '',
         facebookUrl: '',
@@ -123,15 +123,6 @@ const teamData = [
         linkedinUrl: '',
         googleplusUrl: '',
       },
-      {
-        imgSrc: '../img/team/hospi.jpeg',
-        name: 'Vyom Pratap Singh',
-        title: '',
-        twitterUrl: '',
-        facebookUrl: '',
-        linkedinUrl: '',
-        googleplusUrl: '',
-      },
     ]
   },
   {
@@ -146,6 +137,15 @@ const teamData = [
         linkedinUrl: '',
         googleplusUrl: '',
       },
+      {
+        imgSrc: '../img/team/abhishek kumar.jpeg',
+        name: 'Abhishek Kumar',
+        title: '',
+        twitterUrl: '',
+        facebookUrl: '',
+        linkedinUrl: '',
+        googleplusUrl: '',
+      },
     ]
   },
   {
@@ -154,6 +154,20 @@ const teamData = [
       {
         imgSrc: '../img/team/Nitika Singh_MnP.jpg',
         name: 'Nitika Singh',
+        title: '',
+        twitterUrl: '',
+        facebookUrl: '',
+        linkedinUrl: '',
+        googleplusUrl: '',
+      },
+    ]
+  },
+  {
+    section: 'Show Management',
+    members: [
+      {
+        imgSrc: '../img/team/.jpg',
+        name: 'Pratham Sharma',
         title: '',
         twitterUrl: '',
         facebookUrl: '',
