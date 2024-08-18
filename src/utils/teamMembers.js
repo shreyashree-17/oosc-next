@@ -166,7 +166,7 @@ const teamData = [
     section: 'Show Management',
     members: [
       {
-        imgSrc: '../img/team/.jpg',
+        imgSrc: '../img/team/pratham sharma.jpeg',
         name: 'Pratham Sharma',
         title: '',
         twitterUrl: '',
