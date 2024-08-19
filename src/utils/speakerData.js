@@ -418,6 +418,42 @@
       linkedinUrl: '',
       googleplusUrl: '',
     },
+    {
+      imgSrc: '../img/speakers/Sibi Sankar.jpg',
+      name: 'Sibi Sankar',
+      title: 'Linux Kernel Engineer at Qualcomm',
+      twitterUrl: '',
+      facebookUrl: '',
+      linkedinUrl: '',
+      googleplusUrl: '',
+    },
+    {
+      imgSrc: '../img/speakers/Josianne Marsan.jpg',
+      name: 'Josianne Marsan',
+      title: 'Full Professor at Université Laval, Director CeRTIA',
+      twitterUrl: '',
+      facebookUrl: '',
+      linkedinUrl: '',
+      googleplusUrl: '',
+    },
+    {
+      imgSrc: '../img/speakers/Patrick Marois.svg',
+      name: 'Patrick Marois',
+      title: 'Chief Technology Officer at Audit Analytics',
+      twitterUrl: '',
+      facebookUrl: '',
+      linkedinUrl: '',
+      googleplusUrl: '',
+    },
+    {
+      imgSrc: '../img/speakers/Lourival Vieira Neto.jpg',
+      name: 'Lourival Vieira Neto',
+      title: 'GSoC contributor under Tianocore and BeagleBoard.org',
+      twitterUrl: '',
+      facebookUrl: '',
+      linkedinUrl: '',
+      googleplusUrl: '',
+    },
     // Add more speakers as needed
   ];
   
