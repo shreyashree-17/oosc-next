@@ -165,7 +165,7 @@
       googleplusUrl: '',
     },
     {
-      imgSrc: '../img/speakers/rrudra.jpeg',
+      imgSrc: '../img/speakers/rudra.jpeg',
       name: 'Rudra Saraswat',
       title: 'Creator of BlendOS\nUbuntu Unity project lead',
       twitterUrl: '',
@@ -437,7 +437,7 @@
       googleplusUrl: '',
     },
     {
-      imgSrc: '../img/speakers/Patrick Marois.svg',
+      imgSrc: '../img/speakers/Patrick Marois.jpg',
       name: 'Patrick Marois',
       title: 'Chief Technology Officer at Audit Analytics',
       twitterUrl: '',
@@ -449,6 +449,15 @@
       imgSrc: '../img/speakers/Lourival Vieira Neto.jpg',
       name: 'Lourival Vieira Neto',
       title: 'GSoC contributor under Tianocore and BeagleBoard.org',
+      twitterUrl: '',
+      facebookUrl: '',
+      linkedinUrl: '',
+      googleplusUrl: '',
+    },
+    {
+      imgSrc: '../img/speakers/Tushar Gupta.jpg',
+      name: 'Tushar Gupta',
+      title: 'Associate Software Engineer at Canonical ',
       twitterUrl: '',
       facebookUrl: '',
       linkedinUrl: '',
