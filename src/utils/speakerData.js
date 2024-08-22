@@ -437,9 +437,9 @@
       googleplusUrl: '',
     },
     {
-      imgSrc: '../img/speakers/Patrick Marois.jpg',
+      imgSrc: '../img/speakers/Patrick Marois.png',
       name: 'Patrick Marois',
-      title: 'Chief Technology Officer at Audit Analytics',
+      title: 'Director of the Office of Digital Services in Research at Université Laval and a PhD candidate',
       twitterUrl: '',
       facebookUrl: '',
       linkedinUrl: '',
