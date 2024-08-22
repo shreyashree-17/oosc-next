@@ -9,8 +9,8 @@ const Hackathon:React.FC = () => {
                 <div className="md:mx-40">
                     <h3 className='font-bold'>Event Description</h3>
                     <p className='text-2xl'>The 12-hour hackathon is an intense and rewarding marathon coding session designed to foster realtime collaboration and competition among participants. This offline event will provide a unique opportunity for developers to work together on-site, tackle challenging problems, and showcase their creativity and technical skills.</p>
-                    <p className='text-4xl'>There is an overall prize pool of <strong>Rs 2.5 Lakh</strong></p>
                     <p className='text-4xl'>Top 3 submissions get an <strong>internship opportunity at Trumio</strong></p>
+                    <p className='text-4xl'>There is an overall prize pool of <strong>Rs 2.5 Lakh</strong></p>
                     {/* <div className="flex gap-10 justify-center">
                         <div className='text-center'>
                         <h3>Prize Pool</h3>
