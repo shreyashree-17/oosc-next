@@ -163,7 +163,7 @@ const teamData = [
     ]
   },
   {
-    section: 'Show Management',
+    section: 'Event Management',
     members: [
       {
         imgSrc: '../img/team/pratham sharma.jpeg',

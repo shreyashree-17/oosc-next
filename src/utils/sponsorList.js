@@ -17,6 +17,11 @@ const sponsorList = [
                 site: 'https://www.qualcomm.com/',
                 height: "7rem",
             },
+        ]
+    },
+    {
+        type: 'Official Banking Partner',
+        members: [
             {
                 imgSrc: '../img/sponsors/pnb.svg',
                 site: 'https://www.pnbindia.in/'
@@ -33,20 +38,20 @@ const sponsorList = [
         ]
     },
     {
-        type: 'Official Hackathon Partner',
-        members: [
-            {
-                imgSrc: '../img/logos/overlayy.avif',
-                site: 'https://overlayy.com/'
-            }
-        ]
-    },
-    {
         type: 'Official Tech Partner',
         members: [
             {
                 imgSrc: '../img/sponsors/cdis.jpg',
                 site: 'https://www.iitk.ac.in/cdis/'
+            }
+        ]
+    },
+    {
+        type: 'Official Hackathon Partner',
+        members: [
+            {
+                imgSrc: '../img/logos/overlayy.avif',
+                site: 'https://overlayy.com/'
             }
         ]
     },
