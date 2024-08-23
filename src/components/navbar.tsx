@@ -99,13 +99,6 @@ const Navbar: React.FC = () => {
               </Link>
             </li>
             <li>
-              <Link href="/registration" passHref>
-                <div className={`page-scroll ${params.id === '/registration' ? 'active' : ''}`}>
-                  Register
-                </div>
-              </Link>
-            </li>
-            <li>
               <Link href="/contact" passHref>
                 <div className={`page-scroll ${params.id === '/contact' ? 'active' : ''}`}>
                   Contact
