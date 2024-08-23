@@ -78,6 +78,21 @@ const sponsorList = [
                 site: 'https://openprinting.github.io/',
                 height: "12rem"
             },
+            {
+                imgSrc: '../img/sponsors/ti.svg',
+                site: 'https://www.ti.com/',
+                height: "9rem"
+            },
+            {
+                imgSrc: '../img/sponsors/beagleboard.svg',
+                site: 'https://www.beagleboard.org/',
+                height: "7rem"
+            },
+            {
+                imgSrc: '../img/sponsors/google.svg',
+                site: 'https://www.google.com/',
+                height: "7rem"
+            },
         ]
     },
 ]
