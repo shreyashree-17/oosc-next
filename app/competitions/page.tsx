@@ -22,17 +22,20 @@ const Hackathon:React.FC = () => {
                         </div>
                     </div> */}
                 </div>
+                <div className='text-center my-10'>
+                    <a href="https://forms.gle/KreL6hYPafjso1q59" className="btn btn-xl">Register Now</a>
+                </div>
                 <div className="md:flex justify-evenly text-center my-40">
                     <div className='hackBox bg-slate-200 md:w-2/5 p-14 md:p-36 border-2 border-slate-300 my-5'>
                         <h3>Generative AI Hackathon</h3>
                         {/* <p>A unique opportunity to innovate with cutting-edge AI, offering learning, networking, a chance to create impactful solutions and win exciting prizes on the way.</p> */}
                         <p>Problem statements will be released offline in the event.</p>
-                        <p><strong>Timings - </strong>26th August, 3:00&nbsp;AM&nbsp;-&nbsp;3:00&nbsp;PM</p>
+                        <p><strong>Timings - </strong>26th August, 12:00&nbsp;AM&nbsp;-&nbsp;12:00&nbsp;PM</p>
                     </div>
                     <div className='hackBox bg-slate-200 md:w-2/5 p-14 md:p-36 border-2 border-slate-300 my-5'>
                         <h3>Development Hackathon</h3>
                         <p>Problem statements will be released offline in the event.</p>
-                        <p><strong>Timings - </strong>26th August, 3:00&nbsp;AM&nbsp;-&nbsp;3:00&nbsp;PM</p>
+                        <p><strong>Timings - </strong>26th August, 12:00&nbsp;AM&nbsp;-&nbsp;12:00&nbsp;PM</p>
                     </div>
                 </div>
                 <div className='mx-20 text-center'>
